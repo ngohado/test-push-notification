@@ -1,16 +1,9 @@
-import 'dart:io';
-
-import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
-import 'package:get_it/get_it.dart';
 import 'package:test_push_notification/data/repositories/repositories.dart';
-import 'package:test_push_notification/di/injection.config.dart';
 import 'package:test_push_notification/di/injection.dart';
 import 'package:test_push_notification/domain/models/message.dart';
 import 'package:test_push_notification/features/routes.gr.dart';
-
-import 'firebase_options.dart';
 
 class App extends StatefulWidget {
   const App({Key? key}) : super(key: key);
